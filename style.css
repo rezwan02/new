@@ -1,0 +1,112 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.text_and_image {
+  width: 40%;
+  padding-left: 1%;
+  margin-left: 6%;
+  float: left;
+}
+.text_and_image img {
+  width: 75%;
+  padding-top: 0px;
+  margin-left: 35px;
+}
+.text_and_image h1 {
+  font-size: 65px;
+  padding-top: 110px;
+  padding-left: 60px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+}
+.text_and_image p {
+  padding-left: 60px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+}
+.highlight_rob_devidson {
+  color: lightsalmon;
+}
+.header {
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
+}
+section {
+  height: 515px;
+}
+.hire_me_button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  border-radius: 10px;
+  padding: 10px 40px;
+  margin-left: 60px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 700;
+}
+h2 {
+  font-size: 45px;
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  padding-top: 80px;
+  padding-left: 200px;
+}
+h3 {
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 500;
+  color: black;
+}
+.about p {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 35px;
+  font-size: 20px;
+}
+.download_button {
+  text-decoration: none;
+  background-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-radius: 10px;
+  padding: 10px 60px;
+  color: white;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  margin-left: 160px;
+}
+.about {
+  padding-left: 0%;
+  margin-left: 5%;
+}
+.about_me {
+  background-image: url(dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.highlight_works {
+  padding-left: 600px;
+  background-color: red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+}
+.work_images {
+  float: left;
+  margin-left: 5%;
+  padding-top: 15px;
+}
+.image_size {
+  width: 350px;
+  height: 270px;
+  border-left: 5px solid blue;
+  border-right: 5px solid blue;
+  border-radius: 10px;
+}
+.work_images p {
+  width: 350px;
+  height: 270px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
