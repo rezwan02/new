@@ -1,101 +1,98 @@
+/* ---------------------- Hole body section --------------------------- */
+
 body {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
-.text_and_image {
-  width: 40%;
-  padding-left: 1%;
-  margin-left: 6%;
-  float: left;
+section {
+  height: 530px;
+  background-color: #ffffff;
 }
-.text_and_image img {
-  width: 75%;
-  padding-top: 0px;
-  margin-left: 35px;
-}
-.text_and_image h1 {
-  font-size: 65px;
-  padding-top: 110px;
-  padding-left: 60px;
-  font-family: "Bebas Neue", cursive;
-  font-weight: 700;
-}
-.text_and_image p {
-  padding-left: 60px;
-  font-size: 20px;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 25px;
-}
-.highlight_rob_devidson {
-  color: lightsalmon;
-}
+/* -------------------- Header section CSS style ----------------------- */
 .header {
   background-image: url(top-banner.png);
   background-repeat: no-repeat;
 }
-section {
-  height: 515px;
+.text_image {
+  width: 40%;
+  margin-left: 6%;
+  padding-left: 1%;
+  float: left;
 }
-.hire_me_button {
+.text_image img {
+  width: 75%;
+  padding-top: 0px;
+  margin-left: 35px;
+}
+h1 {
+  font-size: 65px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+  padding-top: 110px;
+  padding-left: 60px;
+}
+.highlight_word_rob {
+  color: lightsalmon;
+}
+p {
+  padding-left: 60px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 530;
+}
+.hire_button {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
   text-decoration: none;
   background-image: linear-gradient(45deg, lightsalmon, tomato);
-  border-radius: 10px;
   padding: 10px 40px;
-  margin-left: 60px;
-  font-family: "Roboto", sans-serif;
+  border-radius: 10px;
   color: white;
+  margin-left: 60px;
   font-weight: 700;
 }
-h2 {
-  font-size: 45px;
-  font-family: "Bebas Neue", cursive;
-  color: black;
-  padding-top: 80px;
-  padding-left: 200px;
-}
-h3 {
-  font-size: 25px;
-  font-family: "Bebas Neue", cursive;
-  font-weight: 500;
-  color: black;
-}
-.about p {
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 35px;
-  font-size: 20px;
-}
-.download_button {
-  text-decoration: none;
-  background-image: linear-gradient(180deg, lightsalmon, tomato);
-  border-radius: 10px;
-  padding: 10px 60px;
-  color: white;
-  font-weight: 800;
-  font-family: "Roboto", sans-serif;
-  margin-left: 160px;
-}
-.about {
-  padding-left: 0%;
-  margin-left: 5%;
-}
+/* -------------------------- About me section css style ----------------------- */
 .about_me {
   background-image: url(dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
-.highlight_works {
-  padding-left: 600px;
-  background-color: red;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: white;
+.text_image h2 {
+  font-size: 55px;
   font-family: "Bebas Neue", cursive;
+  font-weight: 800;
+  padding-top: 50px;
+  padding-left: 150px;
+}
+.aboutme_p {
+  padding-left: 0px;
+  text-align: justify;
+  padding-right: 70px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 530;
+}
+.download_button {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  background-image: linear-gradient(180deg, lightsalmon, tomato);
+  padding: 10px 60px;
+  border-radius: 10px;
+  color: white;
+  margin-left: 110px;
   font-weight: 700;
 }
-.work_images {
-  float: left;
-  margin-left: 5%;
-  padding-top: 15px;
+/* ----------------------- Work section CSS style ------------------------- */
+.work_area h2 {
+  text-align: center;
+  background-color: red;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 50px;
 }
 .image_size {
   width: 350px;
@@ -104,9 +101,86 @@ h3 {
   border-right: 5px solid blue;
   border-radius: 10px;
 }
+.work_images {
+  display: inline-block;
+  margin-left: 4%;
+  padding-top: 15px;
+  padding-right: 1%;
+}
 .work_images p {
   width: 350px;
   height: 270px;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
+  text-align: justify;
+  padding-left: 1px;
 }
+.text_and_image p {
+  text-align: justify;
+}
+h3 {
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 700;
+  color: black;
+}
+/* ------------------------- Experience section CSS style -------------------------------- */
+.experiences {
+  width: 40%;
+  margin-left: 6%;
+  float: left;
+  height: 400px;
+}
+.experiences h3 {
+  font-size: 40px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h4 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  color: orange;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.experiences p {
+  padding-left: 0px;
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.experience_area {
+  margin-top: 280px;
+  background-image: url(exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience_area h2 {
+  text-align: center;
+  background-color: lightsalmon;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 50px;
+}
+.single-experience {
+  box-shadow: 15px 15px 40px gray;
+  border-radius: 10px;
+  border-left: 10px solid black;
+  background-color: white;
+}
+#baby_dev {
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+#full_stack {
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+/*----------------------------- Work inquiry section CSS style ------------------------------ */
